@@ -1,0 +1,446 @@
+.main {
+    padding: 0px;
+    margin: 0px;
+}
+
+.navbar{
+    display: flex;
+    margin-top: 8px;
+    background-color: rgb(247, 245, 245);
+    height: 70px;
+    justify-content: center;
+    padding-top: 15px;
+    /* padding-bottom: 5px; */
+}
+.first {
+    display: flex;
+    background: aliceblue;
+    height: 600px;
+}
+.details {
+    padding-top: 15px;
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    margin-left:5%;
+    justify-content: center;
+    text-decoration: none;
+}
+
+#logo {
+    height: 50px;
+    width: 100px;
+    object-fit: cover;
+    border-radius: 50%;
+    box-shadow: 5px 5px 5px 5px rgb(104, 100, 100);
+    margin-right: 65%;
+}
+
+a {
+    flex-direction: right;
+    margin-right: 1.5%;
+    font-size: large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+    padding-top: 15px;
+}
+.photo1 {
+    display: flex;
+    justify-content: right;
+    align-items: right;
+    float: right;
+}
+#img2 {
+    margin-top: 55px;
+    margin-right: 20%;
+    height: 500px;
+    width: 400px;
+    border-radius: 20%;
+}
+
+#trade {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+}
+
+#super {
+    color: mediumseagreen;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 5px;
+}
+
+#save {
+    font: italic;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: grey;
+    margin-top: 0.1px;
+}
+
+#shop {
+    color: green;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+    font-size: larger;
+    background-color: rgb(232, 170, 94);
+    border-radius: 35%;
+    height: 20px;
+    width: 120px;
+    padding: 15px;
+    text-align: center;
+}
+
+
+.second {
+    display: flex;
+    height: 200px;
+    background-color: aliceblue;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.img1 {
+    height: 50px;
+    width: 150px;
+    display: block;
+    object-fit: contain;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.p2 {
+    text-align: center;
+    font-weight:bolder;
+}
+
+.img3 {
+    box-shadow: 8px 8px 8px 8px rgb(204, 225, 243);
+    margin: 8px;
+}
+
+.featured {
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 2em;
+}
+
+.summer {
+    text-align: center;
+    color: grey;
+}
+
+
+.third {
+    background-color: aliceblue;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.box {
+    height: 500px;
+    width: 350px;
+    margin: auto;
+    margin-bottom: 30px;
+}
+
+.box1, .box2, .box3, .box4, .box5,.box6, .box7, .box8, .box9, .box10,.box11, .box12 {
+    height: 400px;
+    width: 250px;
+    object-fit: contain;
+    margin: auto;
+}
+
+.p3 {
+    text-align: center;
+    font-weight:bolder;
+}
+
+.rating {
+    width: 150px;
+    object-fit: contain;
+}
+
+.fourth {
+    display: flex;
+    height: 300px;
+    background-image: url('images/img21.jpeg');
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center ;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.Explore {
+    padding: 8px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    text-align: center;
+}
+
+
+.highlight {
+    color: red;
+    font: bold;
+}
+
+.new {
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.six {
+    display: flex;
+    justify-content:space-around;
+    height: 400px;
+    background-color: aliceblue;
+}
+
+.b1g1 {
+    background: url(images/img23.jpeg);
+    width: 30%;
+    padding: 2%;
+    margin: 2%;
+    background-size: contain;
+    background-position: right;
+    background-repeat: no-repeat;
+    box-shadow: 5px 5px 5px 5px rgb(162, 175, 187);
+}
+
+.upcoming {
+    background: url(images/img22.jpg);
+    width: 30%;
+    margin: 2%;
+    box-shadow: 5px 5px 5px 5px rgb(162, 175, 187);
+    padding: 2%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.crazy, .free, .best, .LearnMore {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.crazy, .best {
+    font-weight: lighter;
+}
+
+.LearnMore {
+    background-color: white;
+    padding: 2px;
+}
+
+.seven {
+    background-color: aliceblue;
+    display: flex;
+    justify-content: space-evenly;
+    height: 400px;
+}
+
+.seven1, .seven2, .seven3 {
+    display: flex;
+    margin: 1.5%;
+    background-color: aquamarine;
+    padding: 1.5%;
+    flex-direction: column;
+    width: 38.1%;
+    justify-content:end;
+    align-items: center;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+.season1 {
+    color: black;
+}
+
+.season2 {
+    font-weight: lighter;
+    color: red;
+}
+
+.seven1 {
+    background-image: url(images/img24.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.seven2 {
+    background-image: url(images/img25.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.seven3 {
+    background-image: url(images/img26.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.eight {
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+    background-image: url(images/img27.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: whitesmoke;
+    padding: 5%;
+}
+
+.yellow1 {
+    color: yellow;
+}
+
+.b1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.eight2 {
+    color: grey;
+    font-weight: lighter;
+}
+
+.youremail {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: row;
+    font-size: large;
+    border-style: none;
+    background-color: whitesmoke;
+    width: 45%;
+}
+
+.signUp {
+    width: 15%;
+    font-size: large;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: rgb(6, 150, 6);
+    border-style: none;
+}
+
+.email {
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    align-items: center;
+    height: 40px;
+    width: 50%;
+    padding: 25px;
+    margin-right: 5px;
+}
+
+.footer {
+    display: flex;
+    height: 300px;
+    width: 100%;
+    background-color: beige;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0.1%;
+}
+
+.nav1{
+    display: flex;
+    margin: 1%;
+    width: 20%;
+    padding: 5px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: smaller;
+}
+
+.nav2{
+    display: flex;
+    margin: 1%;
+    width: 20%;
+    padding: 5px;
+    flex-direction: column;
+    justify-content: center;
+
+    font-size: smaller;
+
+}
+
+.nav3{
+    display: flex;
+    margin: 1%;
+    width: 20%;
+    padding: 5px;
+    flex-direction: column;
+    justify-content: center;
+
+    font-size: smaller; 
+
+}
+
+.nav4{
+    display: flex;
+    margin: 1%;
+    width: 20%;
+    padding: 5px;
+    flex-direction: column;
+    justify-content: center;
+
+    font-size: smaller;
+
+}
+
+.lname {
+    font-style: italic;
+}
+
+.insta {
+    width: 30px;
+    height: 30px;
+}
+
+.appStore {
+    padding: 10px;
+    background-image: url(images/apple.png);
+    background-position: 3px center;
+    background-repeat: no-repeat;
+    padding-left: 30px;
+    background-size: 25px 25px;
+    font-size: 16px;
+}
+
+.playStore {
+    padding: 10px;
+    background-image: url(images/play.png);
+    background-position: 3px center;
+    background-repeat: no-repeat;
+    padding-left: 30px;
+    background-size: 25px 25px;
+    font-size: 16px;
+}
+
+.pay {
+    width: 30px;
+    height: 30px;
+}
+
+
+.copyright {
+    /* background-color: beige; */
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
