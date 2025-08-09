@@ -444,3 +444,142 @@ a {
     align-items: center;
     text-align: center;
 }
+
+
+/* Tablets and small laptops */
+@media (max-width: 1024px) {
+  .first {
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+    padding: 20px;
+  }
+
+  .details {
+    width: 90%;
+    margin: 0;
+    text-align: center;
+  }
+
+  #img2 {
+    width: 80%;
+    height: auto;
+    margin: 20px 0;
+  }
+
+  .second {
+    flex-wrap: wrap;
+    height: auto;
+    padding: 20px;
+  }
+
+  .six {
+    flex-wrap: wrap;
+    height: auto;
+  }
+}
+
+/* Mobile phones */
+@media (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+    height: auto;
+    padding: 10px 0;
+  }
+
+  .navbar a {
+    margin: 5px 0;
+    font-size: 16px;
+  }
+
+  .second, .third {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+  }
+
+  .box {
+    width: 100%;
+    height: auto;
+  }
+
+  .box img {
+    width: 100%;
+    height: auto;
+  }
+
+  .six {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .b1g1, .upcoming {
+    width: 90%;
+    background-size: cover;
+    text-align: center;
+  }
+
+  .seven {
+    flex-direction: column;
+    height: auto;
+  }
+
+  .seven1, .seven2, .seven3 {
+    width: 90%;
+    height: 200px;
+  }
+
+  .eight {
+    flex-direction: column;
+    height: auto;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+  }
+
+  .email {
+    width: 100%;
+    justify-content: center;
+    margin-top: 10px;
+  }
+
+  .youremail {
+    width: 70%;
+  }
+
+  .signUp {
+    width: auto;
+    padding: 10px 20px;
+  }
+
+  .footer {
+    flex-direction: column;
+    height: auto;
+    text-align: center;
+  }
+
+  .footer div {
+    width: 100%;
+    margin-bottom: 15px;
+  }
+}
+
+/* Very small phones */
+@media (max-width: 480px) {
+  .second, .third {
+    grid-template-columns: 1fr;
+  }
+
+  .navbar img {
+    width: 70px;
+    height: auto;
+  }
+
+  h1 {
+    font-size: 1.4rem;
+  }
+
+  h2, h3 {
+    font-size: 1rem;
+  }
+}
